@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Website</title>
+		<script
+			src="https://kit.fontawesome.com/0cacc6190b.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div w3-include-html="header.html"></div>
+		<div w3-include-html="nav.html"></div>
+		<main>
+			<h2 class="about-us-heading">Contact</h2>
+			<p><i class="fas fa-phone"></i>: 12 12 12 121 2112</p>
+			<p><i class="fas fa-at"></i> : adres@mailowy.pl</p>
+		</main>
+		<div w3-include-html="footer.html"></div>
+		<script src="js/script.js"></script>
+		<script>
+			includeHTML();
+		</script>
+	</body>
+</html>
